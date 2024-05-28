@@ -14,10 +14,10 @@ const config: ModuleFederationConfig = {
    * declare module 'my-external-remote';
    *
    */
-  remotes: [['components', 'https://microfronts.vercel.app']],
+  remotes: [
+    ['components', 'https://microfronts.vercel.app'],
+    ['solicitudes', 'https://microfronts-jear.vercel.app'],
+  ],
 };
 
 export default config;
-
-
-

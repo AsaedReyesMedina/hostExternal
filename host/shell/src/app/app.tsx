@@ -4,7 +4,6 @@ import { Header, ClientItem } from 'components/all'
 export function App() {
   return (
     <>
-      <Header />
       <ClientItem />
     </>
   );
