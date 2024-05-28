@@ -25,7 +25,8 @@ const prodConfig: ModuleFederationConfig = {
    * ]
    */
   remotes: [
-    ['components', 'http://localhost:4201/'],
+    ['components', 'https://microfronts.vercel.app'],
+    ['solicitudes', 'https://microfronts-jear.vercel.app'],
   ],
 };
 

@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {ClientItem} from '@pu/modules'
+import {ClientItem} from 'components/all'
 
 export function App() {
   return (
